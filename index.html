@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myWeather App</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <script type="text/javascript" src="config.js"></script>
+</head>
+<body>
+    <h1 class="big-heading">myWeather App ⛅</h1>
+    <div class="card-container">
+        <div class="search-field">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-btn">
+                <img src="https://img.icons8.com/ios/25/000000/search--v3.png"/>
+            </button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Dehradun</h2>
+            <div class="top">
+                <img src="icon.png" alt="" class="icon" />
+                <div class="temp">26°C</div>
+            </div>
+            <div class="bottom">
+                <div class="box">
+                        <h3>Humidty </h3> 
+                        <p class="humidity">45%</p>
+                </div>
+                <div class="box">
+                        <h3>Wind Speed</h3>
+                        <p class="wspeed">45 km/h</p>
+                </div>
+                <div class==" box">
+                    <h3>Description</h3>
+                    <p class="desc">Cloudy</p>
+                </div>
+            </div>
+        </div>
+        <a class = "hide" href="https://icons8.com/icon/e4NkZ7kWAD7f/search">Search icon by Icons8</a>
+    </div>
+    <footer>Made By Tanmay Sharma👋</footer>
+</body>
+</html>
