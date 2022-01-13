@@ -34,7 +34,7 @@ and put your api key in that file as:
 
 ## Authors
 
-- **Tanmay Sharma** - [vamuigua](https://github.com/tanmay-s55) :v:
+- **Tanmay Sharma** - [tanmay](https://github.com/tanmay-s55) :v:
 
 ## License
 
