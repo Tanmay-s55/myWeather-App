@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Requirements
 
-OpenWeather API Key
+**OpenWeather API Key**
 
 You need an API Key for the project to work. To get one go to [OpenWeather](https://openweathermap.org/), sign up and head to the [api](https://openweathermap.org/api) section to generate an api.
 
